@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - 4MC Engineering Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" sizes="32x32" href="images/biglogo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <img src="images/logo.png" alt="Company Logo" class="logo">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="mailto:info@company.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <div class="header-overlay">
+            <h1>Our Products</h1>
+            <p>Quality engineered solutions for your manufacturing needs</p>
+        </div>
+    </section>
+
+    <!-- INTRO SECTION -->
+    <section class="products-intro-section">
+        <div class="container">
+            <div class="intro-content">
+                <h2>Precision-Engineered Products</h2>
+                <p>At 4MC Engineering Services, we manufacture a comprehensive range of high-quality products designed to meet the demanding requirements of modern manufacturing. From specialized fixtures to custom fabrication, our products combine precision engineering with durable materials to deliver reliable performance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SHOWCASE -->
+    <section class="products-showcase-section">
+        <div class="container">
+            <h2 class="section-title">Product Categories</h2>
+            
+            <!-- Category Filters -->
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">All Products</button>
+                <button class="filter-btn" data-category="fixtures">Fixtures & Jigs</button>
+                <button class="filter-btn" data-category="fabrication">Fabrication</button>
+                <button class="filter-btn" data-category="equipment">Equipment</button>
+                <button class="filter-btn" data-category="signage">Signage</button>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="equipment" onclick="openProductModal('product1')">
+                    <div class="product-image">
+                        <img src="images/products/product1.jpg" alt="Conveyors">
+                        <div class="product-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Equipment</span>
+                        <h3>Conveyors</h3>
+                        <p>Smooth, reliable material flow designed to boost productivity and efficiency in your production line.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Durable Construction</span>
+                            <span><i class="fas fa-check"></i> Custom Sizes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card" data-category="fabrication" onclick="openProductModal('product2')">
+                    <div class="product-image">
+                        <img src="images/products/product2.jpg" alt="Stainless Cabinet">
+                        <div class="product-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Fabrication</span>
+                        <h3>Stainless Cabinet</h3>
+                        <p>Sleek, durable storage built for clean and demanding environments with premium stainless steel.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Corrosion Resistant</span>
+                            <span><i class="fas fa-check"></i> Easy to Clean</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card" data-category="fabrication" onclick="openProductModal('product3')">
+                    <div class="product-image">
+                        <img src="images/products/product3.jpg" alt="Stainless Sinks">
+                        <div class="product-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Fabrication</span>
+                        <h3>Stainless Sinks</h3>
+                        <p>Hygienic, heavy-duty sinks with a professional finish, perfect for industrial applications.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Industrial Grade</span>
+                            <span><i class="fas fa-check"></i> Multiple Sizes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" data-category="fabrication" onclick="openProductModal('product4')">
+                    <div class="product-image">
+                        <img src="images/products/product4.jpg" alt="Ductings">
+                        <div class="product-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Fabrication</span>
+                        <h3>Ductings</h3>
+                        <p>Efficient ventilation solutions for clean and safe airflow in industrial environments.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Custom Designs</span>
+                            <span><i class="fas fa-check"></i> Optimal Airflow</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card" data-category="fixtures" onclick="openProductModal('product5')">
+                    <div class="product-image">
+                        <img src="images/products/product5.jpg" alt="Universal Epoxy Fixtures">
+                        <div class="product-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Fixtures</span>
+                        <h3>Universal Epoxy Fixtures</h3>
+                        <p>Flexible, precision fixture engineered for multiple applications with consistent accuracy.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Versatile Design</span>
+                            <span><i class="fas fa-check"></i> High Precision</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card" data-category="fixtures" onclick="openProductModal('product6')">
+                    <div class="product-image">
+                        <img src="images/products/product6.jpg" alt="Epoxy Fixtures">
+                        <div class="product-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Fixtures</span>
+                        <h3>Epoxy Fixtures</h3>
+                        <p>High-accuracy custom fixture for stable and repeatable results in your production process.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Custom Made</span>
+                            <span><i class="fas fa-check"></i> Stable Results</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card" data-category="fixtures" onclick="openProductModal('product7')">
+                    <div class="product-image">
+                        <img src="images/products/product7.jpg" alt="Reflow Jigs">
+                        <div class="product-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Fixtures</span>
+                        <h3>Reflow Jigs (Graphite)</h3>
+                        <p>Heat-resistant graphite jigs for consistent reflow performance in demanding applications.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Heat Resistant</span>
+                            <span><i class="fas fa-check"></i> Long Lasting</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card" data-category="fixtures" onclick="openProductModal('product8')">
+                    <div class="product-image">
+                        <img src="images/products/product8.jpg" alt="Silicone Fixtures">
+                        <div class="product-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Fixtures</span>
+                        <h3>Silicone Fixtures</h3>
+                        <p>Soft, heat-tolerant fixtures that protect sensitive components during manufacturing processes.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Gentle Handling</span>
+                            <span><i class="fas fa-check"></i> Heat Tolerant</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product-card" data-category="signage" onclick="openProductModal('product9')">
+                    <div class="product-image">
+                        <img src="images/products/product9.jpg" alt="Signage & Logo">
+                        <div class="product-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Signage</span>
+                        <h3>Signage & Logo with Backlight</h3>
+                        <p>Premium illuminated branding that stands out with professional LED backlighting solutions.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> LED Backlight</span>
+                            <span><i class="fas fa-check"></i> Custom Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Why Choose Our Products?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-medal"></i>
+                    <h3>Premium Quality</h3>
+                    <p>All products manufactured using high-grade materials and strict quality control</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-ruler-combined"></i>
+                    <h3>Custom Solutions</h3>
+                    <p>Tailored designs to meet your specific manufacturing requirements</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Durability</h3>
+                    <p>Built to last with superior materials and expert craftsmanship</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Fast Turnaround</h3>
+                    <p>Efficient production processes ensuring timely delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="products-cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Need a Custom Solution?</h2>
+                <p>Our engineering team can design and manufacture products tailored to your specific needs</p>
+                <a href="index.html#contact" class="cta-button">Request a Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Company</h3>
+                <p>4MC Engineering provides trading, fabrication, and engineering services, supporting the semiconductor industry with precision tooling, skilled workmanship, and a strong commitment to quality and safety.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <a href="toolings.html">Toolings</a>
+                <a href="jigs.html">Jigs & Fixtures</a>
+                <a href="fabrication.html">Fabrication</a>
+                <a href="automation.html">Automation & Renovation</a>
+                <a href="construction.html">Construction</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <p>Follow us on social media for updates and news</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/profile.php?id=100064146068281" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=4mcengineeringservices@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="footer-registration">
+                    <div class="registration-item" onclick="openCertificate('cor')">
+                        <i class="fas fa-certificate"></i>
+                        <span>C.O.R. #54ARC202300000099981</span>
+                    </div>
+                    <div class="registration-item" onclick="openCertificate('dti')">
+                        <i class="fas fa-file-contract"></i>
+                        <span>DTI REG. #1350759</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+    <p>&copy; <span id="copyright-year"></span> 4MC ENGINEERING SERVICES. All rights reserved.</p>
+</div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="certificate-modal">
+        <span class="certificate-close" onclick="closeCertificate()">&times;</span>
+        <img class="certificate-content" id="certificateImg">
+    </div>
+
+    <!-- Product Detail Modal -->
+    <div id="productModal" class="product-modal">
+        <span class="modal-close" onclick="closeProductModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalProductImg" src="" alt="Product">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="products.js"></script>
+
+</body>
+</html>

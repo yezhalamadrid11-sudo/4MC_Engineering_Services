@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabrication - 4MC Engineering Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" sizes="32x32" href="images/biglogo.png">
+    <link rel="stylesheet" href="fabrication.css">
+</head>
+<body>
+
+     <!-- NAVIGATION BAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <img src="images/logo.png" alt="Company Logo" class="logo">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="mailto:info@company.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="service-hero">
+        <img src="images/services/fabrication-hero.jpg" alt="Fabrication Services">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Fabrication</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICE DESCRIPTION -->
+    <section class="service-description">
+        <div class="container">
+            <p>We provide precision fabrication solutions, turning raw materials into custom components and structures. From metalwork to complex assemblies, our skilled team delivers high-quality, reliable results for industrial, construction, and manufacturing needs.</p>
+        </div>
+    </section>
+
+  <!-- PREVIOUS WORKS SHOWCASE -->
+<section class="works-showcase">
+    <div class="showcase-wrapper">
+        <div class="container">
+            <div class="showcase-content">
+                <div class="showcase-image">
+                    <button class="showcase-nav-btn prev" onclick="previousWork(0)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="showcase-nav-btn next" onclick="nextWork(0)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="work-slide active" data-group="0">
+                        <img src="images/services/work1.jpg" alt="Work 1">
+                    </div>
+                    <div class="work-slide" data-group="0">
+                        <img src="images/services/work2.jpg" alt="Work 2">
+                    </div>
+                    <div class="work-slide" data-group="0">
+                        <img src="images/services/work3.jpg" alt="Work 3">
+                    </div>
+                </div>
+                <div class="showcase-text">
+                    <h2>Lorem ipsum</h2>
+                    <p class="date">January 9, 2029</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="showcase-wrapper">
+        <div class="container">
+            <div class="showcase-content">
+                <div class="showcase-image">
+                    <button class="showcase-nav-btn prev" onclick="previousWork(1)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="showcase-nav-btn next" onclick="nextWork(1)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="work-slide active" data-group="1">
+                        <img src="images/services/work1.jpg" alt="Work 1">
+                    </div>
+                    <div class="work-slide" data-group="1">
+                        <img src="images/services/work2.jpg" alt="Work 2">
+                    </div>
+                    <div class="work-slide" data-group="1">
+                        <img src="images/services/work3.jpg" alt="Work 3">
+                    </div>
+                </div>
+                <div class="showcase-text">
+                    <h2>Lorem ipsum</h2>
+                    <p class="date">January 9, 2029</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="showcase-wrapper">
+        <div class="container">
+            <div class="showcase-content">
+                <div class="showcase-image">
+                    <button class="showcase-nav-btn prev" onclick="previousWork(2)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="showcase-nav-btn next" onclick="nextWork(2)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="work-slide active" data-group="2">
+                        <img src="images/services/work1.jpg" alt="Work 1">
+                    </div>
+                    <div class="work-slide" data-group="2">
+                        <img src="images/services/work2.jpg" alt="Work 2">
+                    </div>
+                    <div class="work-slide" data-group="2">
+                        <img src="images/services/work3.jpg" alt="Work 3">
+                    </div>
+                </div>
+                <div class="showcase-text">
+                    <h2>Lorem ipsum</h2>
+                    <p class="date">January 9, 2029</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="showcase-wrapper">
+        <div class="container">
+            <div class="showcase-content">
+                <div class="showcase-image">
+                    <button class="showcase-nav-btn prev" onclick="previousWork(3)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="showcase-nav-btn next" onclick="nextWork(3)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="work-slide active" data-group="3">
+                        <img src="images/services/work1.jpg" alt="Work 1">
+                    </div>
+                    <div class="work-slide" data-group="3">
+                        <img src="images/services/work2.jpg" alt="Work 2">
+                    </div>
+                    <div class="work-slide" data-group="3">
+                        <img src="images/services/work3.jpg" alt="Work 3">
+                    </div>
+                </div>
+                <div class="showcase-text">
+                    <h2>Lorem ipsum</h2>
+                    <p class="date">January 9, 2029</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- INTERESTED SECTION -->
+<section class="interested-section">
+    <div class="container">
+        <h2 class="section-title">Interested in our Fabrication service?</h2>
+    </div>
+</section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-content-wrapper">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Address</h3>
+                                <p>Franceville Subdivision, Blk 6 Lot 46 Korea Dr.<br> Silang, 4118 Cavite<br>Philippines</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>0917 126 5423<br>0993 624 3898</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=4mcengineeringservices@gmail.com">4mcengineeringservices@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 8:00 AM - 5:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247465.2051942659!2d120.69476469453126!3d14.273981700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd7d8d21f98dbd%3A0x61f8555b98275385!2s4MC%20Engineering%20Services!5e0!3m2!1sen!2sph!4v1767853253682!5m2!1sen!2sph"  
+                            allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Company</h3>
+                <p>4MC Engineering provides trading, fabrication, and engineering services, supporting the semiconductor industry with precision tooling, skilled workmanship, and a strong commitment to quality and safety.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <a href="toolings.html">Toolings</a>
+            <a href="jigs.html">Jigs & Fixtures</a>
+            <a href="fabrication.css">Fabrication</a>
+            <a href="automation.html">Automation & Renovation</a>
+            <a href="construction.html">Construction</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <p>Follow us on social media for updates and news</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/profile.php?id=100064146068281" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=4mcengineeringservices@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="footer-registration">
+                    <div class="registration-item" onclick="openCertificate('cor')">
+                        <i class="fas fa-certificate"></i>
+                        <span>C.O.R. #54ARC202300000099981</span>
+                    </div>
+                    <div class="registration-item" onclick="openCertificate('dti')">
+                        <i class="fas fa-file-contract"></i>
+                        <span>DTI REG. #1350759</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+    <p>&copy; <span id="copyright-year"></span> 4MC ENGINEERING SERVICES. All rights reserved.</p>
+</div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="certificate-modal">
+        <span class="certificate-close" onclick="closeCertificate()">&times;</span>
+        <img class="certificate-content" id="certificateImg">
+    </div>
+
+    <script src="fabrication.js"></script>
+
+</body>
+</html>

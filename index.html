@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4MC Engineering Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" sizes="32x32" href="images/biglogo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <img src="images/logo.png" alt="Company Logo" class="logo">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="mailto:info@company.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION WITH SLIDESHOW -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <img src="images/hero/slide1.jpg" alt="Electronics Services">
+            </div>
+            <div class="hero-slide">
+                <img src="images/hero/slide2.jpg" alt="Technology Solutions">
+            </div>
+            <div class="hero-slide">
+                <img src="images/hero/slide3.jpg" alt="Innovation">
+            </div>
+        </div>
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>4MC ENGINEERING SERVICES</h1>
+                <p>Turning ideas into engineered solutions</p>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <a href="about.html" class="section-title-link">
+                <h2 class="section-title">About Us</h2>
+            </a>
+            
+            <!-- Company Overview with Slideshow -->
+            <div class="company-overview">
+                <div class="company-image">
+                    <button class="company-nav-btn prev" id="companyPrev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="company-nav-btn next" id="companyNext">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="company-slide active">
+                        <img src="images/about/slide1.jpg" alt="Company 1">
+                    </div>
+                    <div class="company-slide">
+                        <img src="images/about/slide2.jpg" alt="Company 2">
+                    </div>
+                    <div class="company-slide">
+                        <img src="images/about/slide3.jpg" alt="Company 3">
+                    </div>
+                    <div class="company-slide">
+                        <img src="images/about/slide4.jpg" alt="Company 4">
+                    </div>
+                    <div class="company-slide">
+                        <img src="images/about/slide5.jpg" alt="Company 5">
+                    </div>
+                </div>
+                <div class="company-info">
+                    <h3>4MC Engineering Services</h3>
+                    <p>4MC Engineering was established on January 2020 at Bancal, Carmona Cavite. Solely owned by Reynaldo Jr. Cristobal and humbly started with only 5 employees. Due to effort and hardwork, the business continued its progress and grown into a separate area to accommodate the needs / demands of the growing market.</p>
+                    <p>On its new venture, 4MC is also in TRADING and Fabrication and Engineering Services to accommodate semi-conductor companies and as part of our business expansion. Our organization is supported by individuals who are fully equipped with knowledge and skills necessary in their line of work, topped with dedication in contributing for the achievement of our goals.</p>
+                    <p>It is the 4MC ENGINEERING in Precision Tooling Company's policy to provide a safe, accident free and health environment. Safety must be one of the major consideration in all operation. People are our most important asset, and provide a safety environment is one of the Company's greatest responsibilities.</p>
+                </div>
+            </div>
+
+            <!-- Mission, Vision, Quality Cards -->
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Our Mission</h3>
+                    <p>Our management vision is to become one of the top Trading & Innovation Company by embracing the values of hard work, teamwork, and fostering strong employee-employer relationships.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-eye"></i>
+                    <h3>Our Vision</h3>
+                    <p>Committed to delivering dependable and affordable products and services through robust business partnerships with top-tier product solutions. Creating additional opportunities is a key way to contribute to our nation's prosperity.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-award"></i>
+                    <h3>Quality Commitment</h3>
+                    <p>At 4MC ENGINEERINGSERVICES, we consistently deliver high-quality products at competitive prices to our customers. Our success stems from cultivating a team of skilled employees with a strong commitment to quality and fostering positive working relationships that benefit both our employees and management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARTNERS AND CLIENTS SECTION -->
+    <section class="partners-section">
+        <div class="container">
+            <a href="clients.html" class="section-title-link">
+                <h2 class="section-title">Our Partners and Clients</h2>
+            </a>
+            <p class="partners-intro">We are proud to be a trusted manufacturing partner to local and international companies, providing quality, reliable products and services across various industries.</p>
+            <div class="partners-slider-container">
+                <div class="partners-slider" id="partnersSlider">
+                    <!-- Partner logos 1-21 -->
+<a href="https://www.ccph.com.ph/en-PH/" target="_blank" class="partner-logo"><img src="images/partners/logo1.png" alt="Partner 1"></a>
+<a href="https://www.vareximaging.com/" target="_blank" class="partner-logo"><img src="images/partners/logo2.png" alt="Partner 2"></a>
+<a href="https://www.fujitsu.com/ph/about/resources/contact/offices/fpi/" target="_blank" class="partner-logo"><img src="images/partners/logo3.png" alt="Partner 3"></a>
+<a href="https://www.global-imi.com/" target="_blank" class="partner-logo"><img src="images/partners/logo4.png" alt="Partner 4"></a>
+<a href="https://www.fastechsynergy.com/" target="_blank" class="partner-logo"><img src="images/partners/logo5.png" alt="Partner 5"></a>
+<a href="https://teamquest-inc.com.ph/home/" target="_blank" class="partner-logo"><img src="images/partners/logo6.png" alt="Partner 6"></a>
+<a href="https://zameco2.com/" target="_blank" class="partner-logo"><img src="images/partners/logo7.png" alt="Partner 7"></a>
+<a href="https://hcg.com.ph/" target="_blank" class="partner-logo"><img src="images/partners/logo8.png" alt="Partner 8"></a>
+<a href="https://www.facebook.com/kaertech/" target="_blank" class="partner-logo"><img src="images/partners/logo9.png" alt="Partner 9"></a>
+<a href="https://www.siix.co.jp/en/" target="_blank" class="partner-logo"><img src="images/partners/logo10.png" alt="Partner 10"></a>
+<a href="https://tsukiden-ph.com/" target="_blank" class="partner-logo"><img src="images/partners/logo11.png" alt="Partner 11"></a>
+<a href="https://www.vacuumschmelze.com/" target="_blank" class="partner-logo"><img src="images/partners/logo12.png" alt="Partner 12"></a>
+<a href="https://psitechnologies.com/" target="_blank" class="partner-logo"><img src="images/partners/logo13.png" alt="Partner 13"></a>
+<a href="https://www.shimadzu.com/index.html" target="_blank" class="partner-logo"><img src="images/partners/logo14.png" alt="Partner 14"></a>
+<a href="http://www.danam.com/" target="_blank" class="partner-logo"><img src="images/partners/logo15.png" alt="Partner 15"></a>
+<a href="https://www.linocraftprinters.com/usr/page.aspx?pgid=2" target="_blank" class="partner-logo"><img src="images/partners/logo16.png" alt="Partner 16"></a>
+<a href="https://www.apollolens.com/" target="_blank" class="partner-logo"><img src="images/partners/logo17.png" alt="Partner 17"></a>
+<a href="https://www.dnb.com/" target="_blank" class="partner-logo"><img src="images/partners/logo18.png" alt="Partner 18"></a>
+<a href="https://newsinaimdi.com/" target="_blank" class="partner-logo"><img src="images/partners/logo19.png" alt="Partner 19"></a>
+<a href="https://spx.ph/en" target="_blank" class="partner-logo"><img src="images/partners/logo20.png" alt="Partner 20"></a>
+<a href="https://fast.com.ph/" target="_blank" class="partner-logo"><img src="images/partners/logo21.png" alt="Partner 21"></a>
+<!-- Duplicate for seamless loop -->
+<a href="https://www.ccph.com.ph/en-PH/" target="_blank" class="partner-logo"><img src="images/partners/logo1.png" alt="Partner 1"></a>
+<a href="https://www.vareximaging.com/" target="_blank" class="partner-logo"><img src="images/partners/logo2.png" alt="Partner 2"></a>
+<a href="https://www.fujitsu.com/ph/about/resources/contact/offices/fpi/" target="_blank" class="partner-logo"><img src="images/partners/logo3.png" alt="Partner 3"></a>
+<a href="https://www.global-imi.com/" target="_blank" class="partner-logo"><img src="images/partners/logo4.png" alt="Partner 4"></a>
+<a href="https://www.fastechsynergy.com/" target="_blank" class="partner-logo"><img src="images/partners/logo5.png" alt="Partner 5"></a>
+<a href="https://teamquest-inc.com.ph/home/" target="_blank" class="partner-logo"><img src="images/partners/logo6.png" alt="Partner 6"></a>
+<a href="https://zameco2.com/" target="_blank" class="partner-logo"><img src="images/partners/logo7.png" alt="Partner 7"></a>
+<a href="https://hcg.com.ph/" target="_blank" class="partner-logo"><img src="images/partners/logo8.png" alt="Partner 8"></a>
+<a href="https://www.facebook.com/kaertech/" target="_blank" class="partner-logo"><img src="images/partners/logo9.png" alt="Partner 9"></a>
+<a href="https://www.siix.co.jp/en/" target="_blank" class="partner-logo"><img src="images/partners/logo10.png" alt="Partner 10"></a>
+<a href="https://tsukiden-ph.com/" target="_blank" class="partner-logo"><img src="images/partners/logo11.png" alt="Partner 11"></a>
+<a href="https://www.vacuumschmelze.com/" target="_blank" class="partner-logo"><img src="images/partners/logo12.png" alt="Partner 12"></a>
+<a href="https://psitechnologies.com/" target="_blank" class="partner-logo"><img src="images/partners/logo13.png" alt="Partner 13"></a>
+<a href="https://www.shimadzu.com/index.html" target="_blank" class="partner-logo"><img src="images/partners/logo14.png" alt="Partner 14"></a>
+<a href="http://www.danam.com/" target="_blank" class="partner-logo"><img src="images/partners/logo15.png" alt="Partner 15"></a>
+<a href="https://www.linocraftprinters.com/usr/page.aspx?pgid=2" target="_blank" class="partner-logo"><img src="images/partners/logo16.png" alt="Partner 16"></a>
+<a href="https://www.apollolens.com/" target="_blank" class="partner-logo"><img src="images/partners/logo17.png" alt="Partner 17"></a>
+<a href="https://www.dnb.com/" target="_blank" class="partner-logo"><img src="images/partners/logo18.png" alt="Partner 18"></a>
+<a href="https://newsinaimdi.com/" target="_blank" class="partner-logo"><img src="images/partners/logo19.png" alt="Partner 19"></a>
+<a href="https://spx.ph/en" target="_blank" class="partner-logo"><img src="images/partners/logo20.png" alt="Partner 20"></a>
+<a href="https://fast.com.ph/" target="_blank" class="partner-logo"><img src="images/partners/logo21.png" alt="Partner 21"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <a href="services.html" class="section-title-link">
+                <h2 class="section-title" style="color: white;">Our Services</h2>
+            </a>
+            <div class="services-grid">
+                <a href="toolings.html" class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Toolings</h3>
+                    <p>Precision-engineered tooling solutions that enhance accuracy, efficiency, and consistent production performance.</p>
+                    <span class="learn-more">Learn more →</span>
+                </a>
+                <a href="jigs.html" class="service-card">
+                    <i class="fas fa-screwdriver"></i>
+                    <h3>Jigs & Fixtures</h3>
+                    <p>Custom-designed jigs and fixtures that improve repeatability, reduce setup time, and ensure quality output.</p>
+                    <span class="learn-more">Learn more →</span>
+                </a>
+                <a href="fabrication.html" class="service-card">
+                    <i class="fas fa-gear"></i>
+                    <h3>Fabrication</h3>
+                    <p>High-quality fabrication services delivering strong, reliable components tailored to exact requirements.</p>
+                    <span class="learn-more">Learn more →</span>
+                </a>
+                <a href="automation.html" class="service-card">
+                    <i class="fas fa-wand-sparkles"></i>
+                    <h3>Automation & Renovation</h3>
+                    <p>Advanced automation and renovation solutions to improve productivity, modernize systems, and extend equipment life.</p>
+                    <span class="learn-more">Learn more →</span>
+                </a>
+                <a href="construction.html" class="service-card">
+                    <i class="fas fa-hammer"></i>
+                    <h3>Construction</h3>
+                    <p>Professional construction services delivering durable structures with quality workmanship and timely execution.</p>
+                    <span class="learn-more">Learn more →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="products-section" id="products">
+        <div class="container">
+            <a href="products.html" class="section-title-link">
+                <h2 class="section-title">Products</h2>
+            </a>
+            
+            <div class="products-container">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/product1.jpg" alt="Product 1">
+                    </div>
+                    <div class="product-content">
+                        <h3>Conveyors</h3>
+                        <p>Smooth, reliable material flow designed to boost productivity.</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/product2.jpg" alt="Product 2">
+                    </div>
+                    <div class="product-content">
+                        <h3>Stainless Cabinet</h3>
+                        <p>Sleek, durable storage built for clean and demanding environments.</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/product3.jpg" alt="Product 3">
+                    </div>
+                    <div class="product-content">
+                        <h3>Stainless Sinks</h3>
+                        <p>Hygienic, heavy-duty sinks with a professional finish.</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/product4.jpg" alt="Product 4">
+                    </div>
+                    <div class="product-content">
+                        <h3>Ductings</h3>
+                        <p>Efficient ventilation solutions for clean and safe airflow.</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/product5.jpg" alt="Product 5">
+                    </div>
+                    <div class="product-content">
+                        <h3>Universal Epoxy Fixtures</h3>
+                        <p>Flexible, precision fixture engineered for multiple applications.</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/product6.jpg" alt="Product 6">
+                    </div>
+                    <div class="product-content">
+                        <h3>Epoxy Fixtures</h3>
+                        <p>High-accuracy custom fixture for stable and repeatable results.</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/product7.jpg" alt="Product 7">
+                    </div>
+                    <div class="product-content">
+                        <h3>Reflow Jigs (Graphite)</h3>
+                        <p>Heat-resistant graphite jigs for consistent reflow performance.</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/product8.jpg" alt="Product 8">
+                    </div>
+                    <div class="product-content">
+                        <h3>Silicone Fixtures</h3>
+                        <p>Soft, heat-tolerant fixtures that protect sensitive components.</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/product9.jpg" alt="Product 9">
+                    </div>
+                    <div class="product-content">
+                        <h3>Signage & Logo with Backlight</h3>
+                        <p>Premium illuminated branding that stands out.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-content-wrapper">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Address</h3>
+                                <p>Franceville Subdivision, Blk 6 Lot 46 Korea Dr.<br> Silang, 4118 Cavite<br>Philippines</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>0917 126 5423<br>0993 624 3898</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=4mcengineeringservices@gmail.com">: 4mcengineeringservices@gmail.com</a><br>
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=juwilzki9@gmail.com">: Joel La Madrid - HR ADMIN</a><br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 8:00 AM - 5:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247465.2051942659!2d120.69476469453126!3d14.273981700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd7d8d21f98dbd%3A0x61f8555b98275385!2s4MC%20Engineering%20Services!5e0!3m2!1sen!2sph!4v1767853253682!5m2!1sen!2sph"  
+                            allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Company</h3>
+                <p>4MC Engineering provides trading, fabrication, and engineering services, supporting the semiconductor industry with precision tooling, skilled workmanship, and a strong commitment to quality and safety.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <a href="toolings.html">Toolings</a>
+                <a href="jigs.html">Jigs & Fixtures</a>
+                <a href="fabrication.html">Fabrication</a>
+                <a href="automation.html">Automation & Renovation</a>
+                <a href="construction.html">Construction</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <p>Follow us on social media for updates and news</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/profile.php?id=100064146068281" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=4mcengineeringservices@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="footer-registration">
+                    <div class="registration-item" onclick="openCertificate('cor')">
+                        <i class="fas fa-certificate"></i>
+                        <span>C.O.R. #54ARC202300000099981</span>
+                    </div>
+                    <div class="registration-item" onclick="openCertificate('dti')">
+                        <i class="fas fa-file-contract"></i>
+                        <span>DTI REG. #1350759</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Updated Footer Bottom Section -->
+        <div class="footer-bottom">
+            <p>&copy; <span id="copyright-year"></span> 4MC ENGINEERING SERVICES. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="certificate-modal">
+        <span class="certificate-close" onclick="closeCertificate()">&times;</span>
+        <img class="certificate-content" id="certificateImg">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
