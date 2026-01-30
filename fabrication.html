@@ -33,47 +33,504 @@
         </div>
     </nav>
 
-    <!-- HERO SECTION -->
-    <section class="service-hero">
-        <img src="images/services/fabrication-hero.jpg" alt="Fabrication Services">
-        <div class="hero-overlay">
-            <div class="hero-content">
-                <h1>Fabrication</h1>
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Fabrication Projects</h1>
+        </div>
+    </section>
+
+    <!-- CATEGORY FILTER -->
+    <section class="category-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn" data-category="all">All Projects</button>
+                <button class="filter-btn" data-category="thesis">Thesis Projects</button>
+                <button class="filter-btn" data-category="agricultural">Agricultural Equipment</button>
+                <button class="filter-btn" data-category="automation">Automation Systems</button>
+                <button class="filter-btn" data-category="machines">Industrial Machines</button>
+                <button class="filter-btn" data-category="safety">Safety & Environment</button>
             </div>
         </div>
     </section>
 
   <!-- PREVIOUS WORKS SHOWCASE -->
 <section class="works-showcase">
-    <div class="showcase-wrapper">
-        <div class="container">
-            <div class="showcase-content">
-                <div class="showcase-image">
-                    <button class="showcase-nav-btn prev" onclick="previousWork(0)">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <button class="showcase-nav-btn next" onclick="nextWork(0)">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
-                    <div class="work-slide active" data-group="0">
-                        <img src="images/fabrication/printing1" alt="Work 1">
-                    </div>
-                    <div class="work-slide" data-group="0">
-                        <img src="images/fabrication/printing2" alt="Work 2">
-                    </div>
-                    <div class="work-slide" data-group="0">
-                        <img src="images/fabrication/printing3" alt="Work 3">
-                    </div>
-                </div>
-                <div class="showcase-text">
-                    <h2>Printing Kiosk</h2>
-                    <p class="date">TUP (Thesis Machine)</p>
-                    <p class="description">4MC Engineering Services proudly fabricated the Printing Kiosk thesis project of 4th year students from Technological University of the Philippines (TUP). The project was carefully designed and built to support the students’ academic requirements, combining functionality, durability, and a user-friendly layout. Through close coordination and precise fabrication, 4MC Engineering Services helped bring the students’ innovative concept into a fully realized and operational kiosk, supporting hands-on learning and engineering excellence.</p>
-                </div>
-            </div>
+
+  <!-- Printing Kiosk -->
+  <div class="showcase-wrapper" data-category="thesis">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="showcase-image">
+          <button class="showcase-nav-btn prev" onclick="previousWork(0)">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="showcase-nav-btn next" onclick="nextWork(0)">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+          <div class="work-slide active" data-group="0">
+            <img src="images/fabrication/printing1.jpg" alt="Work 1">
+          </div>
+          <div class="work-slide" data-group="0">
+            <img src="images/fabrication/printing2.jpg" alt="Work 2">
+          </div>
+          <div class="work-slide" data-group="0">
+            <img src="images/fabrication/printing3.jpg" alt="Work 3">
+          </div>
         </div>
+        <div class="showcase-text">
+          <h2>Printing Kiosk</h2>
+          <p class="date">TUP (Thesis Machine)</p>
+          <p class="description">4MC Engineering Services proudly fabricated the Printing Kiosk thesis project of 4th year students from Technological University of the Philippines (TUP). The project was carefully designed and built to support the students' academic requirements, combining functionality, durability, and a user-friendly layout. Through close coordination and precise fabrication, 4MC Engineering Services helped bring the students' innovative concept into a fully realized and operational kiosk, supporting hands-on learning and engineering excellence.</p>
+        </div>
+      </div>
     </div>
+  </div>
+
+  <!-- Shareable Umbrella -->
+  <div class="showcase-wrapper" data-category="thesis">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="showcase-image">
+          <button class="showcase-nav-btn prev" onclick="previousWork(1)">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="showcase-nav-btn next" onclick="nextWork(1)">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+          <div class="work-slide active" data-group="1">
+            <img src="images/fabrication/shareable1.jpg" alt="Work 4">
+          </div>
+          <div class="work-slide" data-group="1">
+            <img src="images/fabrication/shareable2.jpg" alt="Work 5">
+          </div>
+          <div class="work-slide" data-group="1">
+            <img src="images/fabrication/shareable3.jpg" alt="Work 6">
+          </div>
+        </div>
+        <div class="showcase-text">
+          <h2>Shareable Umbrella</h2>
+          <p class="date">TUP (Thesis Machine)</p>
+          <p class="description">4MC Engineering Services fabricated a Shareable Umbrella System as part of the thesis project of 4th year students from the Technological University of the Philippines (TUP). The project was developed to address the need for readily available umbrellas within the TUP campus, offering a practical solution for students during sudden rain. With attention to functionality and durability, 4MC Engineering Services worked closely with the students to turn their concept into a usable and efficient campus-ready system.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rice Mill -->
+  <div class="showcase-wrapper" data-category="thesis agricultural automation">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="showcase-image">
+          <button class="showcase-nav-btn prev" onclick="previousWork(2)">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="showcase-nav-btn next" onclick="nextWork(2)">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+          <div class="work-slide active" data-group="2">
+            <img src="images/fabrication/rice1.jpg" alt="Work 7">
+          </div>
+          <div class="work-slide" data-group="2">
+            <img src="images/fabrication/rice2.jpg" alt="Work 8">
+          </div>
+        </div>
+        <div class="showcase-text">
+          <h2>RICE MILL DRYER / RICE MILLING INNOVATION (Arduino Based)</h2>
+          <p class="date">TUP (Thesis Machine)</p>
+          <p class="description">4MC Engineering Services fabricated the Rice Mill Dryer / Rice Milling Innovation (Arduino-Based) as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The system integrates Arduino-based automation to improve the efficiency of rice drying and milling operations, focusing on controlled drying, consistency, and reduced post-harvest losses. Through precise fabrication and technical collaboration, 4MC Engineering Services helped transform the students' innovative design into a functional prototype that supports modern, technology-driven agricultural solutions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Egg Incubator -->
+  <div class="showcase-wrapper" data-category="thesis agricultural">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="showcase-image">
+          <div class="work-slide active" data-group="5">
+            <img src="images/fabrication/incubator.jpg" alt="Egg Incubator">
+          </div>
+        </div>
+        <div class="showcase-text">
+          <h2>Egg Incubator</h2>
+          <p class="date">TUP (Thesis Machine)</p>
+          <p class="description">4MC Engineering Services fabricated an Egg Incubator as part of the thesis project of 4th year students from the Technological University of the Philippines (TUP). The system was designed to provide a controlled environment for egg incubation, ensuring stable temperature and humidity to support optimal hatching conditions. Through careful fabrication and collaboration with the students, 4MC Engineering Services helped turn their concept into a reliable and functional prototype suitable for agricultural and educational use.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bicycle Waste Collector -->
+  <div class="showcase-wrapper" data-category="thesis safety">
+  <div class="container">
+    <div class="showcase-content">
+      <div class="showcase-image">
+        <button class="showcase-nav-btn prev" onclick="previousWork(3)">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="showcase-nav-btn next" onclick="nextWork(3)">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="work-slide active" data-group="3">
+          <img src="images/fabrication/bike1.jpg" alt="Bike 1">
+        </div>
+        <div class="work-slide" data-group="3">
+          <img src="images/fabrication/bike2.jpg" alt="Bike 2">
+        </div>
+        <div class="work-slide" data-group="3">
+          <img src="images/fabrication/bike3.jpg" alt="Bike 3">
+        </div>
+      </div>
+      <div class="showcase-text">
+        <h2>Bicycle Waste Collector</h2>
+        <p class="date">TUP (Thesis Machine)</p>
+        <p class="description">
+          4MC Engineering Services fabricated the Bicycle Waste Collector as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The project was designed to promote efficient and eco-friendly waste collection by utilizing a bicycle-powered system, making it suitable for use in communities and campus environments. Through precise fabrication and close coordination with the students, 4MC Engineering Services helped transform their innovative idea into a functional and sustainable waste management solution.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Rabbit Cage Automation -->
+<div class="showcase-wrapper" data-category="thesis agricultural automation">
+  <div class="container">
+    <div class="showcase-content">
+      <div class="showcase-image">
+        <button class="showcase-nav-btn prev" onclick="previousWork(4)">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="showcase-nav-btn next" onclick="nextWork(4)">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="work-slide active" data-group="4">
+          <img src="images/fabrication/rabbit1.jpg" alt="Rabbit 1">
+        </div>
+        <div class="work-slide" data-group="4">
+          <img src="images/fabrication/rabbit2.jpg" alt="Rabbit 2">
+        </div>
+      </div>
+      <div class="showcase-text">
+        <h2>Rabbit Cage Automation Arduino Based</h2>
+        <p class="date">TUP (Thesis Machine)</p>
+        <p class="description">
+          4MC Engineering Services fabricated the Rabbit Cage Automation (Arduino-Based) as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The system integrates Arduino-based automation to manage feeding, watering, and environmental control, ensuring the rabbits' optimal care with minimal manual intervention. Through precise fabrication and technical collaboration, 4MC Engineering Services helped turn the students' innovative design into a fully functional prototype that combines efficiency, convenience, and modern animal husbandry practices.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Library Entrance / Exit Boom -->
+<div class="showcase-wrapper" data-category="thesis automation">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="showcase-image">
+          <div class="work-slide active" data-group="6">
+            <img src="images/fabrication/library.jpg" alt="library">
+          </div>
+        </div>
+        <div class="showcase-text">
+          <h2>Library Entrance / Exit Boom (QR Code)</h2>
+          <p class="date">TUP (Thesis Machine)</p>
+          <p class="description">4MC Engineering Services fabricated the Library Entrance/Exit Boom (QR Code-Based) as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The system utilizes QR code technology to streamline library access, ensuring secure and efficient entry and exit for students and staff. Through careful fabrication and collaboration with the students, 4MC Engineering Services helped bring their innovative idea to life, creating a functional and modern solution for campus library management.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vermicompost Innovation -->
+  <div class="showcase-wrapper" data-category="thesis agricultural automation safety">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="showcase-image">
+          <div class="work-slide active" data-group="6">
+            <img src="images/fabrication/vermicompost.jpg" alt="library">
+          </div>
+        </div>
+        <div class="showcase-text">
+          <h2>Vermicompost Innovation (Arduino Based)</h2>
+          <p class="date">TUP (Thesis Machine)</p>
+          <p class="description">4MC Engineering Services fabricated the Vermicompost Innovation (Arduino-Based) as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The system integrates Arduino-based automation to monitor and control conditions such as temperature, moisture, and aeration, optimizing the composting process for efficient organic waste management. Through precise fabrication and close collaboration with the students, 4MC Engineering Services helped transform their innovative concept into a functional and sustainable solution for modern agricultural and environmental applications.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Charging Station -->
+  <div class="showcase-wrapper" data-category="thesis">
+  <div class="container">
+    <div class="showcase-content">
+      <div class="showcase-image">
+        <button class="showcase-nav-btn prev" onclick="previousWork(7)">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="showcase-nav-btn next" onclick="nextWork(7)">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="work-slide active" data-group="7">
+          <img src="images/fabrication/charging1.jpg" alt="Rabbit 1">
+        </div>
+        <div class="work-slide" data-group="7">
+          <img src="images/fabrication/charging2.jpg" alt="Rabbit 2">
+        </div>
+      </div>
+      <div class="showcase-text">
+        <h2>Charging Station</h2>
+        <p class="date">TUP (Thesis Machine)</p>
+        <p class="description"> 
+          4MC Engineering Services fabricated the Charging Station as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The station was designed to provide a convenient and accessible solution for charging electronic devices around campus, combining safety, efficiency, and user-friendly design. Through careful fabrication and collaboration with the students, 4MC Engineering Services helped bring their innovative idea to life, creating a functional and practical prototype for everyday campus use.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Forge Furnace -->
+<div class="showcase-wrapper" data-category="thesis machines">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="showcase-image">
+          <div class="work-slide active" data-group="5">
+            <img src="images/fabrication/furnace.jpg" alt="Egg Incubator">
+          </div>
+        </div>
+        <div class="showcase-text">
+          <h2>Forge Furnace</h2>
+          <p class="date">TUP (Thesis Machine)</p>
+          <p class="description">4MC Engineering Services fabricated the Forge Furnace as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The furnace was designed to provide a controlled and efficient environment for metal forging, combining durability, heat management, and safety features. Through precise fabrication and collaboration with the students, 4MC Engineering Services helped turn their concept into a fully functional prototype, supporting hands-on learning and practical engineering applications.</p>
+      </div>
+    </div>
+  </div>
+</div>
+   
+   <!-- Melting / Moulding Machine -->
+   <div class="showcase-wrapper" data-category="machines agricultural">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="showcase-image">
+          <div class="work-slide active" data-group="5">
+            <img src="images/fabrication/melting.jpg" alt="Egg Incubator">
+          </div>
+        </div>
+        <div class="showcase-text">
+          <h2>Melting / Moulding Machine (Garden Pot Maker)</h2>
+          <p class="date">TUP (Thesis Machine)</p>
+          <p class="description">4MC Engineering Services fabricated the Melting / Moulding Machine (Garden Pot Maker) as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The machine was designed to efficiently melt and mold materials into garden pots, combining automation, precision, and durability for practical production. Through close collaboration and careful fabrication, 4MC Engineering Services helped bring the students' innovative concept into a functional prototype, supporting sustainable manufacturing and hands-on engineering learning.</p>
+     </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Automatic Liquid Dishwashing Machine -->
+  <div class="showcase-wrapper" data-category="thesis machines automation">
+  <div class="container">
+    <div class="showcase-content">
+      <div class="showcase-image">
+        <button class="showcase-nav-btn prev" onclick="previousWork(8)">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="showcase-nav-btn next" onclick="nextWork(8)">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="work-slide active" data-group="8">
+          <img src="images/fabrication/dish1.jpg" alt="Bike 1">
+        </div>
+        <div class="work-slide" data-group="8">
+          <img src="images/fabrication/dish2.jpg" alt="Bike 2">
+        </div>
+        <div class="work-slide" data-group="8">
+          <img src="images/fabrication/dish3.jpg" alt="Bike 3">
+        </div>
+      </div>
+      <div class="showcase-text">
+        <h2>Automatic Liquid Dishwashing Machine</h2>
+        <p class="date">TUP (Thesis Machine)</p>
+        <p class="description">
+          4MC Engineering Services fabricated the Automatic Liquid Dishwashing Bottling Machine as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The system was designed to automate the process of dispensing and filling dishwashing liquid into bottles, ensuring accuracy, efficiency, and consistency in every batch. Through precise fabrication and collaboration with the students, 4MC Engineering Services helped turn their innovative concept into a fully functional prototype suitable for small-scale production or commercial use.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bamboo Splitting Machine -->
+<div class="showcase-wrapper" data-category="machines agricultural">
+  <div class="container">
+    <div class="showcase-content">
+      <div class="showcase-image">
+        <button class="showcase-nav-btn prev" onclick="previousWork(9)">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="showcase-nav-btn next" onclick="nextWork(9)">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="work-slide active" data-group="9">
+          <img src="images/fabrication/bamboo1.jpg" alt="Bike 1">
+        </div>
+        <div class="work-slide" data-group="9">
+          <img src="images/fabrication/bamboo2.jpg" alt="Bike 2">
+        </div>
+      </div>
+      <div class="showcase-text">
+        <h2>Bamboo Splitting Machine</h2>
+        <p class="date">TUP (Thesis Machine)</p>
+        <p class="description">
+          4MC Engineering Services fabricated the Bamboo Splitting Machine as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The machine was designed to efficiently split bamboo into uniform pieces, combining safety, durability, and precision for practical use in furniture-making, construction, and handicraft applications. Through careful fabrication and collaboration with the students, 4MC Engineering Services helped bring their innovative design into a fully functional and reliable prototype.
+    </div>
+  </div>
+</div>
+</div>
+
+ <!-- Fire Exit Ladder -->
+ <div class="showcase-wrapper" data-category="thesis safety">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="showcase-image">
+          <div class="work-slide active" data-group="5">
+            <img src="images/fabrication/ladder.jpg" alt="Egg Incubator">
+          </div>
+        </div>
+        <div class="showcase-text">
+          <h2>Fire Exit Ladder (Solar Powered with Alarm)</h2>
+          <p class="date">TUP (Thesis Machine)</p>
+          <p class="description">4MC Engineering Services fabricated the Fire Exit Ladder (Solar Powered with Alarm) as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The system was designed to enhance building safety by providing a solar-powered emergency exit ladder equipped with an alarm system, ensuring reliable operation even during power outages. Through precise fabrication and collaboration with the students, 4MC Engineering Services helped turn their innovative concept into a functional, safety-focused prototype suitable for modern emergency applications.</p>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- Garbage Compactor Machine -->
+  <div class="showcase-wrapper" data-category="machines safety">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="showcase-image">
+          <div class="work-slide active" data-group="5">
+            <img src="images/fabrication/garbage.jpg" alt="Egg Incubator">
+          </div>
+        </div>
+        <div class="showcase-text">
+          <h2>Garbage Compactor Machine</h2>
+          <p class="date">Fabrication</p>
+          <p class="description">4MC Engineering Services fabricated the Garbage Compactor Machine as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The machine was designed to efficiently compress and reduce the volume of waste, promoting cleaner and more sustainable waste management practices. Through careful fabrication and collaboration with the students, 4MC Engineering Services helped transform their innovative concept into a fully functional and practical prototype suitable for campus or community use.</p>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- Tilting Belt Sander Machine -->
+  <div class="showcase-wrapper" data-category="machines">
+  <div class="container">
+    <div class="showcase-content">
+      <div class="showcase-image">
+        <button class="showcase-nav-btn prev" onclick="previousWork(10)">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="showcase-nav-btn next" onclick="nextWork(10)">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="work-slide active" data-group="10">
+          <img src="images/fabrication/belt1.jpg" alt="Bike 1">
+        </div>
+        <div class="work-slide" data-group="10">
+          <img src="images/fabrication/belt2.jpg" alt="Bike 2">
+        </div>
+      </div>
+      <div class="showcase-text">
+        <h2>Tilting Belt Sander Machine</h2>
+        <p class="date">Fabrication</p>
+        <p class="description">
+          4MC Engineering Services fabricated the Tilting Belt Sander Machine as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The machine was designed to provide precise sanding for various materials, with a tilting mechanism that allows adjustable angles for better accuracy and finish. Through careful fabrication and collaboration with the students, 4MC Engineering Services helped bring their innovative concept into a fully functional prototype suitable for woodworking, metalworking, and other practical applications.
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Variable Speed Belt Sander Machine -->
+<div class="showcase-wrapper" data-category="machines">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="showcase-image">
+          <div class="work-slide active" data-group="5">
+            <img src="images/fabrication/variable.jpg" alt="Egg Incubator">
+          </div>
+        </div>
+        <div class="showcase-text">
+          <h2>Variable Speed Belt Sander Machine</h2>
+          <p class="date">Fabrication</p>
+          <p class="description">4MC Engineering Services fabricated the Variable Speed Belt Sander Machine as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The machine was designed to provide precise sanding with adjustable speed control, allowing users to optimize performance for different materials and applications. Through careful fabrication and collaboration with the students, 4MC Engineering Services helped transform their innovative concept into a fully functional and versatile prototype suitable for woodworking, metalworking, and other engineering applications.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Hydro Electric Generator -->
+ <div class="showcase-wrapper" data-category="thesis safety">
+  <div class="container">
+    <div class="showcase-content">
+      <div class="showcase-image">
+        <button class="showcase-nav-btn prev" onclick="previousWork(11)">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="showcase-nav-btn next" onclick="nextWork(11)">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="work-slide active" data-group="11">
+          <img src="images/fabrication/hydro1.jpg" alt="Bike 1">
+        </div>
+        <div class="work-slide" data-group="11">
+          <img src="images/fabrication/hydro2.jpg" alt="Bike 2">
+        </div>
+      </div>
+      <div class="showcase-text">
+        <h2>HYDRO ELECTRIC GENERATOR</h2>
+        <p class="date">Fabrication</p>
+        <p class="description">
+          4MC Engineering Services fabricated the Hydro Electric Generator as a thesis project for 4th year students of the Technological University of the Philippines (TUP). The system was designed to convert water flow into electrical energy, promoting renewable energy solutions and sustainable power generation. Through precise fabrication and close collaboration with the students, 4MC Engineering Services helped bring their innovative concept to life as a functional prototype, supporting hands-on learning in modern energy engineering and environmental sustainability.
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Onion Sorting Machine -->
+<div class="showcase-wrapper" data-category="machines agricultural">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="showcase-image">
+          <div class="work-slide active" data-group="5">
+            <img src="images/fabrication/onion.jpg" alt="Egg Incubator">
+          </div>
+        </div>
+        <div class="showcase-text">
+          <h2>Onion Sorting Machine</h2>
+          <p class="date">Fabrication</p>
+          <p class="description">4MC Engineering Services fabricated the Onion Sorting Machine, designed to efficiently sort onions based on size and quality to improve productivity and consistency in post-harvest processing. The machine focuses on practical operation, durability, and ease of use, making it suitable for agricultural and small-scale commercial applications. Through precise fabrication and engineering expertise, 4MC Engineering Services delivered a functional and reliable solution that supports modern agricultural practices.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Pepper Drying Machine -->
+<div class="showcase-wrapper" data-category="machines agricultural">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="showcase-image">
+          <div class="work-slide active" data-group="5">
+            <img src="images/fabrication/pepper.jpg" alt="Pepper Drying Machine">
+          </div>
+        </div>
+        <div class="showcase-text">
+          <h2>Pepper Drying Machine</h2>
+          <p class="date">Fabrication</p>
+          <p class="description">4MC Engineering Services fabricated the Pepper Drying Machine, designed to efficiently dry peppers while maintaining quality, color, and flavor. The machine provides controlled drying conditions to reduce moisture content evenly, improving shelf life and post-harvest processing efficiency. Built with durability and practical operation in mind, the system is suitable for agricultural and small-scale commercial applications.</p>
+    </div>
+  </div>
+</div>
+</div>
+
 </section>
+
 
         <!-- FOOTER -->
 <footer class="footer">
